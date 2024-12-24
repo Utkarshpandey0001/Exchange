@@ -2,7 +2,7 @@ import React from 'react';
 import  { useState } from 'react';
 import { MoonPayProvider } from '@moonpay/moonpay-react';
 import { MoonPayBuyWidget } from '@moonpay/moonpay-react';
-
+import './styles.css';
 
 function App(){
  
@@ -84,10 +84,10 @@ function App(){
 
 // Inline styling for the components
 const styles = {
+  
   container: {
     textAlign: 'center',
     padding: '50px 20px',
-    backgroundColor: '#f0f4f8',
     minHeight: '100vh',
     color: '#333',
   },
@@ -96,16 +96,16 @@ const styles = {
   },
   heading: {
     fontSize: '36px',
-    color: '#1a202c',
+    color: '#3182ce',
     marginBottom: '10px',
   },
   subText: {
     fontSize: '18px',
-    color: '#4a5568',
+    color: 'white',
     marginBottom: '30px',
   },
   exchangeSection: {
-    backgroundColor: '#ffffff',
+    backgroundColor: '#0a023c',
     borderRadius: '10px',
     padding: '30px',
     width: '80%',
@@ -115,7 +115,7 @@ const styles = {
   },
   sectionTitle: {
     fontSize: '24px',
-    color: '#2d3748',
+    color: '#3182ce',
     marginBottom: '20px',
   },
   input: {
@@ -127,7 +127,7 @@ const styles = {
     marginBottom: '20px',
   },
   swapButton: {
-    backgroundColor: '#3182ce',
+    backgroundColor: '#7d6dda',
     color: '#fff',
     padding: '15px 30px',
     fontSize: '18px',
@@ -140,7 +140,7 @@ const styles = {
     backgroundColor: '#2b6cb0',
   },
   benefitsSection: {
-    backgroundColor: '#edf2f7',
+    backgroundColor: '#0a023c',
     padding: '40px 20px',
     borderRadius: '10px',
     width: '90%',
@@ -153,7 +153,7 @@ const styles = {
   },
   benefitItem: {
     fontSize: '18px',
-    color: '#2d3748',
+    color: 'white',
     marginBottom: '15px',
     display: 'flex',
     alignItems: 'center',
@@ -169,11 +169,11 @@ const styles = {
     width: '90%',
     maxWidth: '700px',
     margin: '0 auto',
-    color: '#2d3748',
+    backgroundColor: '#0a023c',
   },
   securityText: {
     fontSize: '16px',
-    color: '#4a5568',
+    color: 'white',
     lineHeight: '1.6',
   },
 };
